@@ -42,7 +42,7 @@ public class Main {
 
             }
             default -> {
-                System.out.println("not support!");
+                System.out.println("You Jerk!");
 
             }
 
