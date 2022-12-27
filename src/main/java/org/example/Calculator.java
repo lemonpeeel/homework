@@ -10,10 +10,10 @@ public class Calculator {
     }
 
     public double addDoubleToDouble (String firstString, String secondString) {
-        double firstStringToDouble = Double.parseDouble(firstString);
-        double secondStringToDouble = Double.parseDouble(secondString);
+        double firstParsedDouble = Double.parseDouble(firstString);
+        double secondParsedDouble = Double.parseDouble(secondString);
 
-        return firstStringToDouble + secondStringToDouble;
+        return firstParsedDouble + secondParsedDouble;
     }
 
     public double subtractDoubleFromDouble (double firstDouble, double secondDouble) {
@@ -21,9 +21,9 @@ public class Calculator {
     }
 
     public double subtractDoubleFromDouble (String firstString, String secondString) {
-        double firstStringToDouble = Double.parseDouble(firstString);
-        double secondStringToDouble = Double.parseDouble(secondString);
-        return firstStringToDouble - secondStringToDouble;
+        double firstParsedDouble = Double.parseDouble(firstString);
+        double secondParsedDouble = Double.parseDouble(secondString);
+        return firstParsedDouble - secondParsedDouble;
     }
 
     public double multiplyDoubleByDouble (double firstDouble, double secondDouble) {
@@ -31,9 +31,9 @@ public class Calculator {
     }
 
     public double multiplyDoubleByDouble (String firstString, String secondString) {
-        double firstStringToDouble = Double.parseDouble(firstString);
-        double secondStringToDouble = Double.parseDouble(secondString);
-        return firstStringToDouble * secondStringToDouble;
+        double firstParsedDouble = Double.parseDouble(firstString);
+        double secondParsedDouble = Double.parseDouble(secondString);
+        return firstParsedDouble * secondParsedDouble;
     }
 
     public double divideDoubleByDouble (double firstDouble, double secondDouble) {
@@ -42,9 +42,9 @@ public class Calculator {
     }
 
     public double divideDoubleByDouble (String firstString, String secondString) {
-        double firstStringToDouble = Double.parseDouble(firstString);
-        double secondStringToDouble = Double.parseDouble(secondString);
-        return firstStringToDouble / secondStringToDouble;
+        double firstParsedDouble = Double.parseDouble(firstString);
+        double secondParsedDouble = Double.parseDouble(secondString);
+        return firstParsedDouble / secondParsedDouble;
     }
 
 

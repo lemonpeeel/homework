@@ -8,7 +8,7 @@ public class Main {
 
         Scanner scan = new Scanner(System.in);
 
-        Calculator myCal = new Calculator ();
+        Calculator calculator = new Calculator ();
 
         System.out.println("Please enter the first number");
         var firstNumber = scan.nextLine();
@@ -21,23 +21,23 @@ public class Main {
 
         switch (operator) {
             case "+" -> {
-                double result = myCal.addDoubleToDouble(firstNumber, secondNumber);
+                double result = calculator.addDoubleToDouble(firstNumber, secondNumber);
                 System.out.println("result is : " + result);
 
 
             }
             case "-" -> {
-                double result = myCal.subtractDoubleFromDouble(firstNumber, secondNumber);
+                double result = calculator.subtractDoubleFromDouble(firstNumber, secondNumber);
                 System.out.println("result is : " + result);
 
             }
             case "/" -> {
-                double result = myCal.divideDoubleByDouble(firstNumber, secondNumber);
+                double result = calculator.divideDoubleByDouble(firstNumber, secondNumber);
                 System.out.println("result is : " + result);
 
             }
             case "*" -> {
-                double result = myCal.multiplyDoubleByDouble(firstNumber, secondNumber);
+                double result = calculator.multiplyDoubleByDouble(firstNumber, secondNumber);
                 System.out.println("result is : " + result);
 
             }
